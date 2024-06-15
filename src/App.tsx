@@ -1,7 +1,7 @@
 import Footer from "./components/footer";
 import NavBar from "./components/nav-bar";
 import Section from "./components/section";
-import Company from "./features/company";
+import Timeline from "./features/timeline";
 import ContactForm from "./features/contact";
 import Profile from "./features/profile";
 import { Technology } from "./features/technology";
@@ -16,14 +16,14 @@ function App() {
     </Section> */}
       <Section
         sectionClass='work-experience'
-        sectionTitle={"Work Experience"}
+        sectionTitle='Work Experience'
         id='experience'
       >
-        <Company />
+        <Timeline />
       </Section>
       <Section
         sectionClass='technologies'
-        sectionTitle={"Tools and Technologies"}
+        sectionTitle='Tools and Technologies'
         id='technologies'
       >
         <Technology />

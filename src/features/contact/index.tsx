@@ -7,7 +7,7 @@ const ContactForm = () => {
       <div
         className='calendly-inline-widget'
         data-url='https://calendly.com/connectdevamit/30min'
-        style={{ minWidth: "320px", height: "700px" }}
+        style={{ maxWidth: "100%", height: "700px" }}
       ></div>
     </div>
   );

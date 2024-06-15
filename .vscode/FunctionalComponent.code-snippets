@@ -1,0 +1,12 @@
+{
+  "ExportSvg": {
+    "scope": "javascript,typerscript,typescriptreact",
+    "prefix": "exps",
+    "body": [
+      "const $1:React.FunctionComponent<React.ComponentProps<'svg'> & { title?: string }> = () => {",
+      "}",
+      "",
+      "export { $1 };"
+    ]
+  }
+}

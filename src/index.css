@@ -1,5 +1,9 @@
-body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+@import "tailwindcss";
+/* Preserve Font Awesome icons styling if needed, though autoReplaceSvg might handle it */
+.fa,
+.fas,
+.far,
+.fal,
+.fab {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
 }
